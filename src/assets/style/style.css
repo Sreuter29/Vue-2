@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box ;
+    margin:0;
+    padding:0;
+}
+
+body {
+    /* background-image: url("../img/background/fond2.jpg"); */
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Armata', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+/*span{
+    font-weight:bold;
+    border: 3px solid black;
+    padding: 0 5px;
+}*/
+
+
+
+/*.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}*/
+
+
+
+form {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+
+.champ {
+    border-width:2px 2px 2px 2px;
+    border-style:solid;
+    border-color:black;
+    width: 600px;
+    height: 40px;
+    background-color: rgb(172, 187, 212,0.2);
+}
+
+::placeholder {
+    color: black;
+    background-color: rgba(80, 110, 160, 0.2);
+}
+
+.bouton {
+    border-width:2px 2px 2px 2px;
+    border-style:solid;
+    border-color:black;
+    height: 40px;
+}
+
+.stylefocus{
+    border: 0.15em solid rgb(118, 127, 134);
+    border-radius: 6px;
+    transform: scale(1.2);
+}
